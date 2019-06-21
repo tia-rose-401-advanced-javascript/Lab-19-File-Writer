@@ -22,10 +22,6 @@ Take the data and write it back to the appropriate file
 ###### `upper(text) -> text`
 Take the text and turn it to all caps
 
-### Setup
-#### `.env` requirements
-* PORT=
-
 #### Running the app
 * `npm start` or node app.js ./files/test.txt
   
@@ -33,9 +29,6 @@ Take the text and turn it to all caps
 * How do you run tests?
 
 npm run test
-
-* What assertions were made?
-* What assertions need to be / should be made?
 
 #### UML
 ![UML Lab 19](./assets/UML-19.JPG)
