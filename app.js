@@ -1,7 +1,7 @@
 
 const alter = require('./mod/alter');
 
-// require('dotenv').config();
+require('dotenv').config();
 const Q = require('@nmq/q/client');
 
 const alterFile = (file) => {
@@ -11,7 +11,7 @@ const alterFile = (file) => {
       alter.writeFile(file, alter.upper(data));
       Q.publish('files', 'save', {name: 'test'});
     })
-    .catch(error => Q.publish('file-error', error));
+    .catch(error => Q.publish('files','file-error', error));
 };
 
 

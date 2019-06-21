@@ -16,7 +16,7 @@
   "scripts": {
     "test": "jest --verbose --coverage",
     "lint": "eslint --fix \"**/*.js\"",
-    "start": "node app.js"
+    "start": "node app.js ./files/test.txt"
   },
   "repository": {
     "type": "git",
