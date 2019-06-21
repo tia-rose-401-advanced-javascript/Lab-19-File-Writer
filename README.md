@@ -1,39 +1,39 @@
-# LAB - 
+# LAB - 19
 
 ## Project Name
+Message Queue Server and Logger
 
-### Author: Student/Group Name
+### Author: Tia Rose
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-
-
+* [submission PR]()
+* [travis]()
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `server.js`
+##### Read file, alter content, write altered content back in the file
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `readFilefileName) -> file data`
+Read the contents of a file and return it
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `writeFile(fileName, text) -> file data`
+Take the data and write it back to the appropriate file
+
+###### `upper(text) -> text`
+Take the text and turn it to all caps
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* PORT=
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `npm start` or node app.js ./files/test.txt
   
 #### Tests
 * How do you run tests?
+
+npm run test
+
 * What assertions were made?
 * What assertions need to be / should be made?
 
